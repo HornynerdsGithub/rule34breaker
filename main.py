@@ -63,5 +63,6 @@ def download_images():
             print(f"Error downloading {filename}: {e}")
 
     print("Scrape complete!")
+    download_images()
 
 download_images()
